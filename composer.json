@@ -1,26 +1,17 @@
 {
-    "name": "repat/plentymarkets-rest-client",
+    "name": "fzsombor/plentymarkets-rest-client",
     "type": "application",
     "description": "REST Client for Plentymarkets",
     "keywords": ["plentymarkets", "pm", "rest", "api", "client", "sdk"],
-    "homepage": "https://github.com/repat/plentymarkets-rest-client",
+    "homepage": "https://github.com/fzsombor/plentymarkets-rest-client",
     "license": "MIT",
     "version" : "0.1.7",
     "authors": [
         {
-            "name": "repat",
-            "email": "repat@repat.de",
+            "name": "fzsombor",
             "role": "Developer"
         },
-        {
-            "name": "hepisec",
-            "role": "Contributor"
-        },
-        {
-            "name": "daniel-mannheimer",
-            "email": "dm@actionmix.net",
-            "role": "Contributor"
-        }
+
     ],
     "require": {
         "php": ">=5.6.0",
@@ -29,6 +20,6 @@
         "danielstjules/stringy": "2.3.2"
     },
     "autoload": {
-        "psr-4": { "repat\\PlentymarketsRestClient\\": "src/PlentymarketsRestClient" }
+        "psr-4": { "fzsombor\\PlentymarketsRestClient\\": "src/PlentymarketsRestClient" }
     }
 }
